@@ -1,0 +1,11 @@
+<% if (locals.login.colores == "Rojo") { %>
+    <body class="index_body-red">
+    <% } else if (locals.login.colores == "Azul") { %>
+        <body class="index_body-blue">
+        <% } else if (locals.login.colores == "Verde") { %>
+            <body class="index_body-green">
+            <% } else if (locals.login.colores == "Amarillo") { %>
+                <body class="index_body-yellow">
+<% } else { %>
+    <body class="index_body">
+<% } %>

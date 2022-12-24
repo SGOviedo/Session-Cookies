@@ -1,0 +1,26 @@
+<%- include('./partials/head', {title:"Mensaje"}) %>
+
+
+<% if (locals.login) { %>
+  <%- include('./partials/bodyColor') %> 
+<% } else{ %>
+  <body class="index_body">
+<% } %>
+
+    <header class="index_header">
+      <h1>Session & Cookies</h1>
+    </header>
+    <main class="index_main">
+      <section class="index_section">
+        <h1 class="" > Agradecimiento</h1>
+        <p class="mensaje">
+          <%= locals.login.name %> gracias por visitarnos !! 
+        </p>
+        <div class="button_cont">
+          <a class="Boton" href="/">Salir</a>
+        </div>
+      </section>
+    </main>
+
+  </body>
+</html>

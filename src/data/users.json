@@ -1,0 +1,25 @@
+[
+   {
+      "id": 1,
+      "nombre": "Santi",
+      "email": "santi@hotmail.com",
+      "edad": "21",
+      "colores": ""
+   },
+   {
+      "id": 2,
+      "name": "Santiago",
+      "email": "garrasamigas@gmail.com",
+      "edad": "21",
+      "colores": "Rojo",
+      "saveColor": "on"
+   },
+   {
+      "id": 3,
+      "name": "GarrasAmigas",
+      "email": "garras@gmail.com",
+      "edad": "21",
+      "colores": "Verde",
+      "saveColor": "on"
+   }
+]
